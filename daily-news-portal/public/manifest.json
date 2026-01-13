@@ -1,0 +1,9 @@
+{
+  "short_name": "News",
+  "name": "Daily News Portal",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0b1320",
+  "background_color": "#0b1320"
+}

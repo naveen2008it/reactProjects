@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Global markets start the week on a cautious note",
+      "category": "Business",
+      "author": "News Desk",
+      "imageUrl": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?auto=format&fit=crop&w=1200&q=60",
+      "summary": "Stocks and bonds moved in a narrow range as traders weighed inflation prints and central bank guidance.",
+      "content": "Global markets opened the week cautiously as investors awaited key inflation indicators and central bank commentary. Analysts noted that market breadth remained thin while volatility stayed modest. In the bond market, yields were mixed across major economies. Traders are also tracking earnings updates and commodity pricing, especially energy markets.\n\nMarket participants said the next data releases could reset expectations for the pace of rate cuts. Meanwhile, several sectors saw selective buying on dips, and defensives outperformed cyclicals.",
+      "publishedAt": "2026-01-13T07:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "AI tools power new wave of productivity apps",
+      "category": "Technology",
+      "author": "A. Reporter",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=60",
+      "summary": "From meeting notes to code review, AI copilots are being embedded into day-to-day workflows.",
+      "content": "A new crop of productivity applications is integrating AI assistants to reduce manual work and streamline collaboration. Teams are experimenting with features like automatic meeting summaries, task extraction, document drafting, and code review suggestions.\n\nWhile early results look promising, experts warn that organizations need clear policies around privacy, data retention, and human oversight. The next year is expected to bring tighter integration between AI tools and core business systems.",
+      "publishedAt": "2026-01-13T06:10:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "India announces new initiative to improve urban air quality",
+      "category": "India",
+      "author": "Staff Writer",
+      "imageUrl": "https://images.unsplash.com/photo-1593697820678-9b0bb274a2d3?auto=format&fit=crop&w=1200&q=60",
+      "summary": "The plan focuses on real-time monitoring, public transport upgrades, and industrial emissions controls.",
+      "content": "Government officials announced a renewed initiative aimed at improving air quality in major urban centers. Key measures include expanding real-time monitoring networks, accelerating public transport modernization, and tightening compliance checks for industrial emissions.\n\nEnvironmental groups welcomed the emphasis on measurement and transparency but urged stronger enforcement and sustained funding. Authorities said progress reports will be published regularly and the program will prioritize regions with the highest pollution levels.",
+      "publishedAt": "2026-01-13T05:45:00.000Z"
+    }
+  ]
+}
