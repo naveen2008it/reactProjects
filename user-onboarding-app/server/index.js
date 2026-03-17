@@ -39,6 +39,15 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function generateOtp() {
   return String(crypto.randomInt(100000, 1000000));
 }
@@ -145,7 +154,7 @@ app.post('/auth/register', async (req, res) => {
         subject: 'Welcome to OnboardMe! 🎉',
         html: `
           <div style="font-family:sans-serif;max-width:480px;margin:0 auto">
-            <h2 style="color:#4f46e5">Welcome, ${fullName}! 🚀</h2>
+            <h2 style="color:#4f46e5">Welcome, ${escapeHtml(fullName)}! 🚀</h2>
             <p>Your account has been successfully created.</p>
             <p>You can now log in and explore your personalised dashboard.</p>
             <div style="margin:24px 0">
